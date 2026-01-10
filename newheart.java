@@ -7,13 +7,23 @@ public class newheart{
                 System.out.print(" ");
             }
             for(int j=1;j<=2*i-1;j++){
+                if(j==1||j==2*i-1){
                 System.out.print("*");
+                }
+            else{
+                System.out.print(" ");
+            }
             }
             for(int j=2*(n-i)-1;j>=1;j--){
                 System.out.print(" ");
             }
             for(int j=1;j<=2*i-1;j++){
+                if(j==1||j==2*i-1){
                 System.out.print("*");
+                }
+            else{
+                System.out.print(" ");
+            }
             }
         System.out.println();
         }
@@ -22,7 +32,12 @@ public class newheart{
                 System.out.print(" ");
             }
            for(int j=4*(n-i)-1;j>=1;j--){
+                if(j==1||j==4*(n-i)-2){
                 System.out.print("*");
+                }
+            else{
+                System.out.print(" ");
+            };
             }
         System.out.println();
         }
