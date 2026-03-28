@@ -1,0 +1,4 @@
+Day 31 - Advanced File Handling in Java
+This file demonstrates reading and writing using Buffered Streams.
+Created by Bhumika Intelligent
+Appended line: Java File Handling is powerful!
